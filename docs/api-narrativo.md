@@ -60,7 +60,7 @@ import {
   background,
   before,
   cleanup,
-} from "@purecore/one-proof-4-all";
+} from "@vibe2founder/tests2dialects";
 
 intend("Fluxo de Autenticação do Usuário", () => {
   const authService = standIn();

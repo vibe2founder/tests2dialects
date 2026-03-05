@@ -42,7 +42,7 @@
 ## Exemplo Completo
 
 ```typescript
-import { ApiSpec } from "@purecore/one-proof-4-all";
+import { ApiSpec } from "@vibe2founder/tests2dialects";
 
 // Definindo o teste de forma fluída e declarativa
 await ApiSpec.define("Ciclo de Vida do Usuário")
@@ -51,7 +51,7 @@ await ApiSpec.define("Ciclo de Vida do Usuário")
   // Passo 1: Criar Usuário
   .post("/users", {
     name: "Antigravity",
-    email: "ag@purecore.codes",
+    email: "ag@vibe2founder.codes",
     role: "admin"
   })
   .header("X-Project-ID", "one-spec-4-all")

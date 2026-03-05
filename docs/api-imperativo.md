@@ -57,7 +57,7 @@ import {
   stub,
   initAll,
   reset,
-} from "@purecore/one-proof-4-all";
+} from "@vibe2founder/tests2dialects";
 
 ensure("Conformidade do Gateway de Pagamento", () => {
   let apiGateway;

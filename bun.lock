@@ -2,7 +2,7 @@
   "lockfileVersion": 1,
   "workspaces": {
     "": {
-      "name": "@purecore/one-proof-4-all",
+      "name": "@vibe2founder/tests2dialects",
       "dependencies": {
         "@types/node": "latest",
         "undici-types": "~7.16.0",

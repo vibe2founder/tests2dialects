@@ -20,7 +20,7 @@ async function runExample() {
     await ApiSpec.define("Create New Post")
       .from("https://jsonplaceholder.typicode.com")
       .post("/posts", {
-        title: "Purecore Test",
+        title: "vibe2founder Test",
         body: "Building dialects is fun",
         userId: 1,
       })

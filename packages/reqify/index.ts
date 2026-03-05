@@ -5,22 +5,22 @@ import {
   JsonBody,
 } from "../../types/api-types.js";
 
-export interface ReqifyOptions {
+export interface request2httpOptions {
   method?: HttpMethod;
   headers?: Record<string, string>;
   body?: unknown;
 }
 
-export interface ReqifyResponse<T = any> {
+export interface request2httpResponse<T = any> {
   status: HttpStatusCode;
   data: T;
   headers: Headers;
 }
 
-export const reqify = async <T = any>(
+export const request2http = async <T = any>(
   url: ApiUrl,
-  options: ReqifyOptions = {},
-): Promise<ReqifyResponse<T>> => {
+  options: request2httpOptions = {},
+): Promise<request2httpResponse<T>> => {
   const { method = "GET", headers = {}, body } = options;
 
   const response = await fetch(url, {

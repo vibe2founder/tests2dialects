@@ -6,7 +6,7 @@ import {
   TestName,
   SchemaDefinition,
 } from "../../types/api-types.js";
-import { reqify, ReqifyResponse } from "../reqify/index.js";
+import { request2http, request2httpResponse } from "../request2http/index.js";
 
 export class ApiTestDialect {
   private _name: TestName;
@@ -74,12 +74,12 @@ export class ApiTestDialect {
     return this;
   }
 
-  async run(): Promise<ReqifyResponse> {
+  async run(): Promise<request2httpResponse> {
     const url = `${this._baseUrl}${this._path}`;
     console.log(`🚀 [Test: ${this._name}] Running ${this._method} ${url}...`);
 
     try {
-      const response = await reqify(url, {
+      const response = await request2http(url, {
         method: this._method,
         headers: this._headers,
         body: this._body,
@@ -94,7 +94,7 @@ export class ApiTestDialect {
     }
   }
 
-  private validate(response: ReqifyResponse) {
+  private validate(response: request2httpResponse) {
     if (
       this._expectedStatus !== null &&
       response.status !== this._expectedStatus

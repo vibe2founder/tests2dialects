@@ -3,7 +3,7 @@
     "target": "ES2022",
     "module": "NodeNext",
     "moduleResolution": "NodeNext",
-    "lib": ["ES2022", "dom"],
+    "lib": ["ES2022", "DOM"],
     "types": ["node"],
     "outDir": "./dist",
     "strict": true,
@@ -14,7 +14,7 @@
     "declaration": true,
     "baseUrl": ".",
     "paths": {
-      "@purecore/one-proof-4-all": ["./src/index.ts"]
+      "@vibe2founder/tests2dialects": ["./src/index.ts"]
     }
   },
   "include": ["src/**/*", "examples/**/*", "packages/**/*", "types/**/*"],

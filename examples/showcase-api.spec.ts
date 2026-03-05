@@ -32,7 +32,7 @@ async function runShowcase() {
     await ApiSpec.define("2. Criar Novo Recurso (POST)")
       .from(BASE_URL)
       .header("Content-Type", "application/json; charset=UTF-8")
-      .header("X-Custom-Header", "PurecorePower")
+      .header("X-Custom-Header", "vibe2founderPower")
       .post("/posts", {
         title: "Showcase Test",
         body: "Testando todas as features do dialeto",

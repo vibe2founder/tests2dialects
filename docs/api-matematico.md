@@ -58,7 +58,7 @@ import {
   postulate,
   given,
   conclude,
-} from "@purecore/one-proof-4-all";
+} from "@vibe2founder/tests2dialects";
 
 axiom("Teoria de Juros Compostos", () => {
   let calcInterest;

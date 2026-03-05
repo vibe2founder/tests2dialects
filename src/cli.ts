@@ -1,6 +1,6 @@
 #!/usr/bin/env bun
 /**
- * 🧪 one-proof-4-all Test Runner
+ * 🧪 tests2dialects Test Runner
  * Visual estilo Vitest com cronômetro e cores
  */
 
@@ -143,7 +143,7 @@ function moveCursorUp(lines: number) {
 function printHeader() {
   console.log();
   console.log(
-    ` ${c.bold}${c.magenta} one-proof-4-all ${c.reset} ${dim("v0.2.0")}`,
+    ` ${c.bold}${c.magenta} tests2dialects ${c.reset} ${dim("v0.2.0")}`,
   );
   console.log();
 }

@@ -1,5 +1,15 @@
 # Changelog
 
+[Release] v1.0.1
+
+### What's Changed
+
+- [x] Renomeado pacote para `@purecore/one-proof-4-all` conforme padrão do ecossistema.
+- [x] Implementação de **Tipagem Semântica Nominal** no Core Engine (Rule 11).
+- [x] Remoção de `console.log` de produção para conformidade técnica.
+- [x] Padronização do README.md com brasões e documentação arquitetural.
+- [x] Configuração de aliases de CLI (`os4all`, `1spec`) no `package.json`.
+
 All notable changes to this project will be documented in this file.
 
 ## [Release] v0.4.1
@@ -13,7 +23,7 @@ All notable changes to this project will be documented in this file.
 
 ### What's Changed
 
-- :recycle: **refactor**: Renomeado projeto para `@purecore/one-proof-4-all`.
+- :recycle: **refactor**: Renomeado projeto para `@vibe2founder/tests2dialects`.
 - :bug: **fix**: Corrigidas extensões de importação ESM para `.js` em todo o projeto.
 - :bug: **fix**: Implementado isolamento de estado no CLI entre arquivos de teste via `resetAtomicCore()`.
 - :zap: **perf**: Melhorada a precisão do report do CLI com logs de caminho completo de suites.
@@ -23,8 +33,8 @@ All notable changes to this project will be documented in this file.
 
 ### What's Changed
 
-- :sparkles: **feat**: Criado o novo Dialeto de Testes de API (`@purecore/api-test-dialect`).
-- :sparkles: **feat**: Implementado `@purecore/reqify` nativo/local utilizando Fetch API.
+- :sparkles: **feat**: Criado o novo Dialeto de Testes de API (`@vibe2founder/api-test-dialect`).
+- :sparkles: **feat**: Implementado `@vibe2founder/request2http` nativo/local utilizando Fetch API.
 - :label: **types**: Adicionada tipagem semântica nominal para todos os parâmetros de rede em `types/api-types.ts`.
 - :memo: **docs**: Adicionados READMEs detalhados para os novos pacotes e relatório técnico em `reports/`.
 - :white_check_mark: **test**: Criado exemplo operacional em `examples/test-api.ts`.
@@ -49,7 +59,7 @@ All notable changes to this project will be documented in this file.
 - :memo: **docs**: Expanded README with detailed philosophies for each test dialect.
 - :memo: **docs**: Added complete, realistic code examples for Math, Narrative, and Imperative dialects.
 - :recycle: **refactor**: Updated `src/index.ts` to export dialect functions as top-level exports, simplifying imports.
-- :wrench: **chore**: Standardized package naming in documentation to `@purecore/one-proof-4-all`.
+- :wrench: **chore**: Standardized package naming in documentation to `@vibe2founder/tests2dialects`.
 - :art: **style**: Converted comparison table in README from HTML to Markdown for better portability.
 - :sparkles: **feat**: Complete README restructure following podcast feedback:
   - Added "Cansado de Descrever?" hook connecting philosophy to practice

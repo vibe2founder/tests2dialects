@@ -328,7 +328,7 @@ function App() {
           One Proof <span className="gradient-text">4 All.</span>
         </h2>
         <p className="text-white/30 text-sm mb-8">
-          © 2026 Purecore Canonical. Built for the era of agentic coding.
+          © 2026 vibe2founder Canonical. Built for the era of agentic coding.
         </p>
         <div className="flex justify-center gap-6">
           <a

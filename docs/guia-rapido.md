@@ -1,8 +1,8 @@
-🚀 Seu Guia de Início Rápido para o one-proof-4-all
+🚀 Seu Guia de Início Rápido para o tests2dialects
 
 Introdução: Cansado de "Descrever" Quando Você Quer "Provar"?
 
-O one-proof-4-all nasce de uma frustração comum no mundo dos testes: usar o mesmo vocabulário para problemas fundamentalmente diferentes. Afinal, a linguagem importa. Ela molda o pensamento. A ferramenta padrão (describe, it, should) é excelente para descrever comportamentos, mas e quando você está provando um teorema matemático ou verificando a conformidade com um contrato de API?
+O tests2dialects nasce de uma frustração comum no mundo dos testes: usar o mesmo vocabulário para problemas fundamentalmente diferentes. Afinal, a linguagem importa. Ela molda o pensamento. A ferramenta padrão (describe, it, should) é excelente para descrever comportamentos, mas e quando você está provando um teorema matemático ou verificando a conformidade com um contrato de API?
 
 Este framework oferece diferentes "dialetos" porque entende que testar um algoritmo de criptografia é uma tarefa fundamentalmente diferente de testar um fluxo de login de usuário. Ele oferece o vocabulário certo para cada trabalho.
 
@@ -12,15 +12,15 @@ Esta abordagem é construída sobre uma filosofia fundamental que garante que a 
 
 A "Filosofia Aditiva": Seu Conhecimento Está Seguro
 
-Uma das maiores barreiras para adotar uma nova ferramenta é o medo de ter que "jogar tudo fora e começar de novo". O one-proof-4-all foi projetado com o princípio oposto em mente.
+Uma das maiores barreiras para adotar uma nova ferramenta é o medo de ter que "jogar tudo fora e começar de novo". O tests2dialects foi projetado com o princípio oposto em mente.
 
 O Que É a Filosofia Aditiva?
 
-A Filosofia Aditiva significa que o one-proof-4-all funciona como um superset (superconjunto) do Jest. Ele não nega o passado; ele o expande. Se você tem milhares de testes escritos com a sintaxe padrão do Jest (describe, it), não precisa reescrever uma única linha. O framework entende nativamente o seu código legado.
+A Filosofia Aditiva significa que o tests2dialects funciona como um superset (superconjunto) do Jest. Ele não nega o passado; ele o expande. Se você tem milhares de testes escritos com a sintaxe padrão do Jest (describe, it), não precisa reescrever uma única linha. O framework entende nativamente o seu código legado.
 
 Essa filosofia se manifesta em três benefícios principais:
 
-- Seu código legado continua funcionando: Testes antigos que usam describe e it rodam nativamente no executor do one-proof-4-all. Seu conhecimento e seu código continuam 100% válidos.
+- Seu código legado continua funcionando: Testes antigos que usam describe e it rodam nativamente no executor do tests2dialects. Seu conhecimento e seu código continuam 100% válidos.
 - Você não precisa aprender tudo: A ideia não é que cada desenvolvedor se torne fluente em todos os dialetos. A proposta é a Especialização por Contexto: um cientista de dados pode usar apenas o dialeto Matemático, enquanto um engenheiro de backend foca no Imperativo. O framework é poliglota; você não precisa ser.
 - Um único executor de testes: Unifique seu ciclo de vida de desenvolvimento e implantação. Um único comando npm test executa tanto os testes legados quanto os modernos, otimizando seu pipeline de CI/CD e consolidando todos os resultados em um único relatório autoritativo.
 
@@ -34,9 +34,9 @@ Quick Start: Escrevendo um Teste Imperativo
 
 Siga estes três passos simples para escrever e executar seu primeiro teste.
 
-1. Instale o pacote: Abra seu terminal e execute o seguinte comando para adicionar o one-proof-4-all ao seu projeto.
+1. Instale o pacote: Abra seu terminal e execute o seguinte comando para adicionar o tests2dialects ao seu projeto.
 2. Crie o arquivo api.spec.ts: Crie um novo arquivo de teste e cole o código abaixo. Este exemplo usa o dialeto Imperativo para garantir o comportamento de uma API.
-3. Execute o teste: Volte ao seu terminal e rode o executor do one-proof-4-all.
+3. Execute o teste: Volte ao seu terminal e rode o executor do tests2dialects.
 
 Pronto! Você acabou de rodar seu primeiro teste com o dialeto Imperativo. Agora, vamos explorar os diferentes dialetos para que você possa escolher o ideal para seus próprios projetos.
 
@@ -63,7 +63,7 @@ Lembre-se: você não precisa aprender os três dialetos. A ideia é escolher aq
 │ axiom, proof, implies│ │ intend, scenario, to │ │ ensure, check, that │
 └──────────────────────┘ └──────────────────────┘ └──────────────────────┘
 
-As seções a seguir são projetadas para ser o seu guia. Para cada dialeto, vamos diagnosticar um ponto de dor específico comum no desenvolvimento de software, apresentar a solução linguística oferecida pelo one-proof-4-all e fornecer um tutorial prático. Preste muita atenção à seção "A Dor" — se ela ressoar com você, você provavelmente encontrou o seu dialeto.
+As seções a seguir são projetadas para ser o seu guia. Para cada dialeto, vamos diagnosticar um ponto de dor específico comum no desenvolvimento de software, apresentar a solução linguística oferecida pelo tests2dialects e fornecer um tutorial prático. Preste muita atenção à seção "A Dor" — se ela ressoar com você, você provavelmente encontrou o seu dialeto.
 
 O Dialeto Matemático (📐 MathDialect)
 
@@ -81,7 +81,7 @@ A Solução: Escrevendo Provas Axiomáticas
 
 Com o dialeto Matemático, você escreve provas axiomáticas, usando um vocabulário que espelha a lógica formal. A linguagem agora reflete o que você está realmente fazendo: provar. Este não é apenas um teste; é uma prova axiomática formal, refletindo a vibe científica e imutável do código que valida.
 
-import { axiom, proof, implies } from "@purecore/one-proof-4-all";
+import { axiom, proof, implies } from "@vibe2founder/tests2dialects";
 
 axiom("Teoria de Hash SHA-256", () => {
 proof("Hash de string vazia converge para constante conhecida", () => {
@@ -114,7 +114,7 @@ A Solução: Testes como Documentação Viva
 
 O dialeto Narrativo transforma o teste em uma história legível por humanos. Ele serve como um contrato vivo entre produto e engenharia. Agora, seu PM pode ler o teste e entender exatamente qual regra de negócio está sendo validada. Este código lê como uma história, cumprindo a vibe fluida, humana e descritiva do Behavior-Driven Development.
 
-import { scenario, to } from "@purecore/one-proof-4-all";
+import { scenario, to } from "@vibe2founder/tests2dialects";
 
 scenario("Usuário sem permissão tenta acessar o painel de Admin", () => {
 const response = { status: 403 }; // Resposta de exemplo
@@ -147,7 +147,7 @@ A Solução: Garantindo Contratos com Autoridade
 
 O dialeto Imperativo usa palavras de comando: Ensure, Verify, That. Essa linguagem muda completamente o peso do teste, tratando-o como um conjunto de verificações de conformidade. O vocabulário impositivo reforça a vibe técnica e rigorosa do Design by Contract, não deixando espaço para ambiguidades.
 
-import { ensure, verify, that } from "@purecore/one-proof-4-all";
+import { ensure, verify, that } from "@vibe2founder/tests2dialects";
 
 ensure("Conformidade com Contrato PCI-DSS v4", () => {
 verify("Dados sensíveis nunca trafegam em texto plano", () => {
@@ -164,11 +164,11 @@ Seu Primeiro Teste Imperativo
 2. Entenda as partes: Aqui está o código novamente, com explicações sobre o papel de cada palavra-chave.
 3. Execute e garanta a conformidade: Rode o executor mais uma vez para ver todos os seus testes de todos os dialetos passando juntos.
 
-Conclusão: Adotando o one-proof-4-all Gradualmente
+Conclusão: Adotando o tests2dialects Gradualmente
 
-A mensagem mais importante é que você não precisa parar tudo e reescrever seus testes existentes. Graças à Filosofia Aditiva, o one-proof-4-all coexiste perfeitamente com o Jest.
+A mensagem mais importante é que você não precisa parar tudo e reescrever seus testes existentes. Graças à Filosofia Aditiva, o tests2dialects coexiste perfeitamente com o Jest.
 
-O código abaixo, com um teste legado e um teste novo no mesmo arquivo, é 100% válido e será executado pelo mesmo comando. Observe que este arquivo é 100% válido e executável pelo one-proof-4-all.
+O código abaixo, com um teste legado e um teste novo no mesmo arquivo, é 100% válido e será executado pelo mesmo comando. Observe que este arquivo é 100% válido e executável pelo tests2dialects.
 
 // ✅ Legado: Ninguém precisa mexer nisso
 describe("Módulo de Login (Legacy)", () => {
@@ -178,12 +178,12 @@ expect(validar("123")).toBe(true);
 });
 
 // ✅ Novo: Feature nova com dialeto novo
-import { axiom, implies } from 'one-proof-4-all-tester';
+import { axiom, implies } from 'tests2dialects-tester';
 
 axiom("Nova Criptografia SHA-256", () => {
 implies(hash("123")).matches(/^[a-f0-9]{64}$/);
 });
 
-O one-proof-4-all não veio para substituir o que já funciona. Ele veio para dar o vocabulário certo para cada tarefa, tornando seus testes mais expressivos, precisos e valiosos. É uma ferramenta de adição, não de substituição, projetada para evoluir com você e sua equipe.
+O tests2dialects não veio para substituir o que já funciona. Ele veio para dar o vocabulário certo para cada tarefa, tornando seus testes mais expressivos, precisos e valiosos. É uma ferramenta de adição, não de substituição, projetada para evoluir com você e sua equipe.
 
 Próximos Passos: Para uma referência completa de todos os comandos e suas equivalências com o Jest, consulte a Tabela Rosetta (Comparativo Geral) na documentação principal do projeto. Ela é uma ferramenta fantástica para traduzir mentalmente os conceitos que você já conhece.

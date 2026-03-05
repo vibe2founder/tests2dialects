@@ -1,6 +1,6 @@
 {
   "name": "@purecore/one-proof-4-all",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "type": "module",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
@@ -15,10 +15,13 @@
   "license": "Cogfulness Ethical License (CEL) v1.0",
   "description": "",
   "bin": {
-    "one-proof-4-all": "./src/cli.ts",
+    "tests2dialects": "./src/cli.ts",
     "os4all": "./src/cli.ts",
     "1spec": "./src/cli.ts",
     "testall": "./src/cli.ts"
+  },
+  "publishConfig": {
+    "access": "public"
   },
   "dependencies": {},
   "devDependencies": {
@@ -28,6 +31,6 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/suissa/purecore-one-proof-4-all.git"
+    "url": "https://github.com/suissa/vibe2founder-tests2dialects.git"
   }
 }

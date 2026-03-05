@@ -1,11 +1,11 @@
-# @purecore/reqify
+# @vibe2founder/request2http
 
-Implementação nativa e minimalista de requisições HTTP para o ecossistema @purecore.
+Implementação nativa e minimalista de requisições HTTP para o ecossistema @vibe2founder.
 
 [Link para o CHANGELOG](../../CHANGELOG.md)
 
 ## Como foi feito
-O `@purecore/reqify` foi implementado como uma abstração leve sobre a Fetch API disponível nativamente no Bun e Node.js moderno. 
+O `@vibe2founder/request2http` foi implementado como uma abstração leve sobre a Fetch API disponível nativamente no Bun e Node.js moderno. 
 
 **Decisões Técnicas:**
 - Uso de `fetch` nativo para evitar inflar o `node_modules`.
@@ -13,10 +13,10 @@ O `@purecore/reqify` foi implementado como uma abstração leve sobre a Fetch AP
 - Tratamento automático de JSON para simplificar o consumo de APIs REST.
 
 ## Como funciona
-A função principal `reqify` aceita uma URL e um objeto de opções (method, headers, body) e retorna uma Promise com o status, dados e headers da resposta.
+A função principal `request2http` aceita uma URL e um objeto de opções (method, headers, body) e retorna uma Promise com o status, dados e headers da resposta.
 
 ```typescript
-const response = await reqify("https://api.exemplo.com/users", {
+const response = await request2http("https://api.exemplo.com/users", {
   method: "POST",
   body: { name: "Test" }
 });

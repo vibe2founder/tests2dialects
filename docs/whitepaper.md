@@ -1,10 +1,10 @@
 # Whitepaper
 
 ## Introduction
-This whitepaper outlines the key features and benefits of the Purecore One Proof for All.
+This whitepaper outlines the key features and benefits of the vibe2founder One Proof for All.
 
 ## Background
-In the evolving landscape of blockchain technology, the need for a scalable and secure proof mechanism has never been more critical. This document discusses the architecture, protocol design, and operational specifics of the Purecore system.
+In the evolving landscape of blockchain technology, the need for a scalable and secure proof mechanism has never been more critical. This document discusses the architecture, protocol design, and operational specifics of the vibe2founder system.
 
 ## System Overview
 ### Core Components
@@ -18,4 +18,4 @@ In the evolving landscape of blockchain technology, the need for a scalable and 
 - **User-friendly:** Simple interfaces for better user engagement.
 
 ## Conclusion
-The Purecore One Proof for All offers innovative solutions to the current challenges in the blockchain ecosystem and sets a benchmark for future developments. For more information, refer to our detailed documentation and user guides.
+The vibe2founder One Proof for All offers innovative solutions to the current challenges in the blockchain ecosystem and sets a benchmark for future developments. For more information, refer to our detailed documentation and user guides.
